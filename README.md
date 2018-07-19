@@ -1,6 +1,6 @@
 # react-web
 
-> react, webpack构建
+> react, webpack构建, antD控件引入
 
 ## 项目结构 ##
 
@@ -36,11 +36,6 @@ npm run dev || yarn dev
 # 本地打包压缩
 npm run build || yarn build
 
-# 生成page文件
-npm run init page `name` # 配置发生改变暂不可用
-
-# 生成component文件
-npm run init component `name` # 配置发生改变暂不可用
 ```
 ## 反代理配置
 
@@ -149,11 +144,10 @@ module.exports = {
 项目已添加国际支持 <br/>
 详细情况 https://github.com/i18next/react-i18next
 
+## antD控件的引入
+
+项目已添加了阿里推出的antD控件，并使用按需引入的规则进行import
+
 ``` bash
-
-@button-primary-bg-color: #ea2f2f;
-@button-primary-active-bg-color: #da2f2f;
-
-```
 
 
